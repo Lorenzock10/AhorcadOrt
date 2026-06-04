@@ -2,7 +2,36 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<title>JavaScript</title>
+
+<h1>Ahorcado</h1>
+
+<p>
+    Intentá descubrir la palabra letra por letra.
+    Tenés un máximo de 10 intentos.
+</p>
+
+<div>
+    <h3>Palabra:</h3>
+    <div id="palabraOculta"></div>
 </div>
+
+<br>
+
+<div id="intentos">
+    Intentos restantes: 10
+</div>
+
+<br>
+
+<div id="mensaje"></div>
+
+<br>
+
+<input type="text" id="txtLetra" maxlength="1" placeholder="Letra" />
+
+<input type="hidden" id="palabra" value="@ViewBag.Palabra" />
+
+<button onclick=ArriesgarLetra()>Arriesgar</button>
+
+<script scr = "js/script.js" ></script>
