@@ -14,13 +14,33 @@ for(let i = 0; i< pOculta.length; i++ )
 }
 
 Dguiones.innerHTML = palabra;
-Intentos1.innerHTML= ("Tus intentos: " + intentos);
-
+Intentos1.innerHTML = ("Tus intentos: " + intentos);
 
 function ArriesgarLetra()
 {
 
- 
+let letraIngresada = Letra.value.toUpperCase();
+let encontrada = false;
+
+for(let i = 0; i < pOculta.length; i++)
+    {
+        if(pOculta[i] == letraIngresada)
+        {
+            pOculta[i] = letraIngresada;
+            encontrada = true;
+        }
+    }
+
+    if(letraIngresada === ""){
+        encontrada = false;
+    }
+
+       if(intentos > 0 && encontrada == false)
+    {
+        intentos --; 
+        document.getElementById("Intentos").innerHTML = intentos;
+    }
+
 
 }
 
