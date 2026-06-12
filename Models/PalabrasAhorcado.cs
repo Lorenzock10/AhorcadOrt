@@ -15,7 +15,7 @@ this.palabras = new List<string>()
     "UNIVERSIDAD",
     "MARIPOSAS",
     "AVENTURAS",
-    "MONTANAS",
+    "MONTAÑAS",
     "DICCIONARIO",
     "ELECTRICO",
     "DESARROLLO",

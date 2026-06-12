@@ -191,4 +191,4 @@ C:\Users\50049697\Downloads\AhorcadOrt\obj\Debug\net9.0\refint\Ahorcado.dll
 C:\Users\50049697\Downloads\AhorcadOrt\obj\Debug\net9.0\Ahorcado.pdb
 C:\Users\50049697\Downloads\AhorcadOrt\obj\Debug\net9.0\Ahorcado.genruntimeconfig.cache
 C:\Users\50049697\Downloads\AhorcadOrt\obj\Debug\net9.0\ref\Ahorcado.dll
-C:\Users\50049697\Downloads\AhorcadOrt\obj\Debug\net9.0\compressed\932bzjbn4y-pw8suo3dio.gz
+C:\Users\50049697\Downloads\AhorcadOrt\obj\Debug\net9.0\compressed\932bzjbn4y-il3arpfquo.gz

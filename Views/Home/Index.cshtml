@@ -11,20 +11,18 @@
     Tenés un máximo de 10 intentos.
 </p>
 
-<div id="guiones"></div>
+<div class ="div1" id="guiones"></div>
 
-<div id="Intentos">
+<div class ="div2" id="Intentos">
     Intentos restantes: 10
 </div>
 
-
-
-<div id="Mensaje"></div>
+<div class ="div3" id="Mensaje"></div>
 
 <br>
 
-<input type="text" id="txtLetra" maxlength="1" placeholder="Letra" />
+<input type="text" id="Letra" maxlength="1" placeholder="Letra" />
 
-<input type="hidden" id="PalabraOculta" value="@ViewBag.Palabra" />
+<input type="hidden" id="PalabraOculta" value="@ViewBag.palabra" />
 
 <button onclick=ArriesgarLetra()>Arriesgar</button>
